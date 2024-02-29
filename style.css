@@ -23,6 +23,7 @@ header {
     width: 65px;
     margin-left: 35px;
     margin-top: 8px;
+    cursor: pointer;
   }
   
   .menu {
@@ -34,7 +35,7 @@ header {
   .menu li {
     border: 1px; 
   background-color: #fff; 
-  padding: 15px;
+  padding: 5px;
     margin-right: 35px;
     margin-top: 18px;
   }
@@ -55,28 +56,52 @@ header {
     font-style:normal;
     flex-flow: wrap;
   }
-
+h1{
+  padding-bottom: 1rem;
+}
   
   .section.one{
     background-color: #CCD3CA;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 80px;
   }
-  .section.one h1 h2{
+  .section.one h1 p{
     font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
+  
+  }
+  .section.one p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      text-transform: capitalize;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      flex-wrap: wrap;
   }
   .section.two{
     background-color: #8CB9BD;
+    flex-wrap: wrap;
   }
+  .section.wrapper.left{
+    flex-wrap: wrap;
+  }
+ 
+  /* .envelope{
+    padding-right: 2rem;
+  } */
   .section.two button{
     border: #fff;
     background-color: #fff;
     padding: 7px;
     width: 100px;
-    margin-left: 25px;
+    margin-left: 35px;
+    margin-top: 2rem;
+    cursor: pointer;
   }
   .section.two p{
     font-family: "Open Sans", sans-serif;
