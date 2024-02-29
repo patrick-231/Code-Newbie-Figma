@@ -102,7 +102,7 @@ header {
     display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px;
+  padding: 88px;
 }
 .left{
     display: flex;
@@ -196,9 +196,10 @@ text-align: center;
   input[type="submit"] {
     border: #fff;
     background-color: #fff;
-    padding: 7px;
+    padding: 8px;
     width: 100px;
     margin-left: 20px;
+    margin-bottom: 30px;
   }
   
   footer{
@@ -210,6 +211,7 @@ text-align: center;
     font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
+  padding: 30px;
   }
 footer p:hover{
   text-decoration: underline;

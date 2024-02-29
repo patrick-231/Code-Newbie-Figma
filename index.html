@@ -7,27 +7,27 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
+    <header id="home">
         <nav>
           <div class="logo">
-            <img src="./images/9_1sasa11.jpg" alt="Logo">
+            <img src="./images/icons8-rubber-duck-48.png" alt="Logo">
           </div>
           <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Talk to the duck</a></li>
-            <li><a href="#">Emergency Kit</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#section2">Talk to the duck</a></li>
+            <li><a href="#emergency">Emergency Kit</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
       <main>
-        <section class="section one">
+        <section class="section one" >
             <div>
                 <h1> < Hello World /></h1>
                 <h4>Introduction text..... <br>......</h4>
             </div>
           </section>
-          <section class="section two">
+          <section class="section two" id="section2">
             <div class="section wrapper">
                 <div class="left">
                     <p>Text about this page > what is this for? <br>and PS: Rubber Duck Debugging <br> (em & bold & undelined & a)</p>
@@ -35,14 +35,14 @@
                 </div>
                
                
-                <div><img src="./images/envelope.png" alt="" width="200" class="envelope"></div>
+                <div><img src="./images/icons8-rubber-duck-100.png" alt="" width="200" class="envelope"></div>
             </div>
     
           </section>
-          <section class="emergency">
+          <section class="emergency" id="emergency">
             <h2>In case of Emergency click on:</h2>
             <div class="flex-container">
-                <div class="grid-item">Discord <br> Student <br> Help</div>
+                <div class="grid-item"> Discord <br> Student <br> Help <a href="https://discordapp.com/channels/641221910146842644/641593560394760200" target="_blank"></a></div>
                 <div class="grid-item">Stack <br>Overflow</div>
                 <div class="grid-item">MDN</div>
               </div>
@@ -55,7 +55,7 @@
             </div>
         </section>
     
-              <section class="contact us">
+              <section class="contact us" id="contact">
                 <h2>Contact Us</h2>
                 
                   <form>
@@ -77,7 +77,13 @@
                 
               </section>
             </main>
-              <footer> <p>Proudly created by Patrick</p></footer>
+              <footer>
+                <a href="https://github.com/foreverbog" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <div><a href="https://github.com/patrick-231/Code-Newbie-Figma"></a><img src="./images/github-mark-white.png" alt="Git hub" width="70">
+                  <p>Proudly created by Patrick</p>
+                </div>
+              </footer>
+              
       
 
       
